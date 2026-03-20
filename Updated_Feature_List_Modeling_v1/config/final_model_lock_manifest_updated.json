@@ -1,0 +1,41 @@
+{
+  "manifest_version": "1.0",
+  "created_date": "2026-03-19",
+  "selection_basis": "Original model-creation criteria applied to Updated_Feature_List_Modeling_v1/results/updated_model_run_metrics.csv",
+  "locked_split": {
+    "train_seasons": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021],
+    "test_seasons": [2022, 2023, 2024, 2025]
+  },
+  "models": {
+    "bracket": {
+      "objective": "bracket",
+      "run_id": "UPDATED_BRK_LOGISTIC_SIGMOID",
+      "model_family": "logistic",
+      "feature_set": "updated_core",
+      "calibration": "sigmoid",
+      "selected_variant_metric": {
+        "metric": "test_log_loss",
+        "value": 0.5781520573649163
+      },
+      "dataset_relpath": "Updated_Feature_List_Modeling_v1/data/bracket_games_updated_core_historical.csv",
+      "target_column": "target_teamA_win"
+    },
+    "champion": {
+      "objective": "champion",
+      "run_id": "UPDATED_CHAMP_LOGISTIC_ISOTONIC",
+      "model_family": "logistic",
+      "feature_set": "updated_core",
+      "calibration": "isotonic",
+      "selected_variant_metric": {
+        "metric": "test_log_loss",
+        "value": 0.0539856385839534
+      },
+      "dataset_relpath": "Updated_Feature_List_Modeling_v1/data/champion_updated_core_historical.csv",
+      "target_column": "is_champion"
+    }
+  },
+  "output_paths": {
+    "bracket_predictions_csv": "Updated_Feature_List_Modeling_v1/results/Production/2026_bracket_predictions.csv",
+    "champion_predictions_csv": "Updated_Feature_List_Modeling_v1/results/Production/2026_champion_predictions.csv"
+  }
+}

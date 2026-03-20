@@ -1,0 +1,9 @@
+model_name,model_family,calibration,avg_points,avg_max_points,avg_points_pct,avg_point_gap,avg_winner_set_error
+rf_sigmoid_weighted_points,rf,sigmoid,91.25,192.0,0.47526041666666663,100.75,44.5
+rf_raw_weighted_points,rf,raw,90.5,192.0,0.47135416666666663,101.5,45.5
+logreg_raw_weighted_points,logistic,raw,89.5,192.0,0.4661458333333333,102.5,47.5
+gbm_raw_weighted_points,gbm,raw,89.0,192.0,0.46354166666666663,103.0,46.5
+gbm_sigmoid_weighted_points,gbm,sigmoid,86.75,192.0,0.4518229166666667,105.25,43.0
+logreg_isotonic_weighted_points,logistic,isotonic,85.75,192.0,0.44661458333333337,106.25,48.5
+locked_baseline_sigmoid_weighted_points,logistic,sigmoid,85.25,192.0,0.44401041666666663,106.75,48.5
+logreg_sigmoid_weighted_points,logistic,sigmoid,85.25,192.0,0.44401041666666663,106.75,48.5

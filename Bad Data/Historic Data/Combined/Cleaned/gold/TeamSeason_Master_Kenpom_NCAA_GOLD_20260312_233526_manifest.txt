@@ -1,0 +1,9 @@
+created_at=2026-03-12T23:35:26
+source_csv=C:\Users\aidan\Documents\Personal Projects\March Madness Prediction Modeling Project\Data\Historic Data\Combined\Cleaned\TeamSeason_Master_Kenpom_NCAA.csv
+gold_latest_csv=C:\Users\aidan\Documents\Personal Projects\March Madness Prediction Modeling Project\Data\Historic Data\Combined\Cleaned\gold\TeamSeason_Master_Kenpom_NCAA_GOLD.csv
+gold_snapshot_csv=C:\Users\aidan\Documents\Personal Projects\March Madness Prediction Modeling Project\Data\Historic Data\Combined\Cleaned\gold\TeamSeason_Master_Kenpom_NCAA_GOLD_20260312_233526.csv
+row_count=9263
+column_count=176
+unique_team_season_keys=9263
+qa_passed=True
+qa_report=C:\Users\aidan\Documents\Personal Projects\March Madness Prediction Modeling Project\Data\Historic Data\Combined\Cleaned\data_quality\ncaa_qa_checks.csv

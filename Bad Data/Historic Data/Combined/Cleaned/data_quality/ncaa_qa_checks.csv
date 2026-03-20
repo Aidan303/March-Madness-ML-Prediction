@@ -1,0 +1,9 @@
+check,status,value,threshold_or_expectation
+row_count_positive,PASS,9263,> 0
+required_key_columns_present,PASS,3,all 3 key columns
+duplicate_team_season_key_count,PASS,0,== 0
+blank_team_season_key_count,PASS,0,== 0
+blank_teamname_std_count,PASS,0,== 0
+season_decimal_suffix_count,PASS,0,== 0
+non_prefixed_stat_column_count,PASS,0,== 0
+ncaa_unmatched_vs_kenpom_count,PASS,0,== 0

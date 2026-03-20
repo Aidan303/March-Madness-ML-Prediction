@@ -1,0 +1,69 @@
+﻿Seed,Team,Region,Play-In Team?
+1,Duke,East,No
+2,UConn,East,No
+3,Michigan State,East,No
+4,Kansas,East,No
+5,St. John’s,East,No
+6,Louisville,East,No
+7,UCLA,East,No
+8,Ohio State,East,No
+9,TCU,East,No
+10,UCF,East,No
+11,South Florida,East,No
+12,Northern Iowa,East,No
+13,California Baptist,East,No
+14,North Dakota State,East,No
+15,Furman,East,No
+16,Siena,East,No
+1,Florida,South,No
+2,Houston,South,No
+3,Illinois,South,No
+4,Nebraska,South,No
+5,Vanderbilt,South,No
+6,North Carolina,South,No
+7,Saint Mary’s,South,No
+8,Clemson,South,No
+9,Iowa,South,No
+10,Texas A&M,South,No
+11,VCU,South,No
+12,McNeese State,South,No
+13,Troy,South,No
+14,Penn,South,No
+15,Idaho,South,No
+16,Prairie View A&M,South,Yes
+16,Lehigh,South,Yes
+1,Michigan,Midwest,No
+2,Iowa State,Midwest,No
+3,Virginia,Midwest,No
+4,Alabama,Midwest,No
+5,Texas Tech,Midwest,No
+6,Tennessee,Midwest,No
+7,Kentucky,Midwest,No
+8,Georgia,Midwest,No
+9,Saint Louis,Midwest,No
+10,Santa Clara,Midwest,No
+11,Miami (OH),Midwest,Yes
+11,SMU,Midwest,Yes
+12,Akron,Midwest,No
+13,Hofstra,Midwest,No
+14,Wright St,Midwest,No
+15,Tennessee State,Midwest,No
+16,UMBC,Midwest,Yes
+16,Howard,Midwest,Yes
+1,Arizona,West,No
+2,Purdue,West,No
+3,Gonzaga,West,No
+4,Arkansas,West,No
+5,Wisconsin,West,No
+6,BYU,West,No
+7,Miami (FL),West,No
+8,Villanova,West,No
+9,Utah State,West,No
+10,Missouri,West,No
+11,Texas,West,Yes
+11,NC State,West,Yes
+12,High Point,West,No
+13,Hawai’i,West,No
+14,Kennesaw St,West,No
+15,Queens,West,No
+16,Long Island,West,No

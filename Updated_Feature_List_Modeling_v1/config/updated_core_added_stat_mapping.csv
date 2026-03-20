@@ -1,0 +1,121 @@
+abbrev,feature_name,data_source
+%2PTS,usp_2pts,box_score
+%3PTS,usp_3pts,box_score
+%FTPTS,usp_ftpts,box_score
+2P%,usp_2p,"box_score, pbp"
+2PA,usp_2pa,"box_score, pbp"
+2PA AGST,usp_2pa_agst,box_score
+2PA DIFF,usp_2pa_diff,box_score
+2PA/100,usp_2pa_100,"box_score, pbp"
+2PA/40,usp_2pa_40,"box_score, pbp"
+2PA/G,usp_2pa_g,"box_score, pbp"
+2PM,usp_2pm,"box_score, pbp"
+2PM AGST,usp_2pm_agst,box_score
+2PM DIFF,usp_2pm_diff,box_score
+3P%,usp_3p,"box_score, pbp"
+3PA AGST,usp_3pa_agst,box_score
+3PA DIFF,usp_3pa_diff,box_score
+3PA/100,usp_3pa_100,"box_score, pbp"
+3PA/40,usp_3pa_40,"box_score, pbp"
+3PA/G,usp_3pa_g,"box_score, pbp"
+3PAr,usp_3par,"box_score, pbp"
+3PM AGST,usp_3pm_agst,box_score
+3PM DIFF,usp_3pm_diff,box_score
+AST Ratio,usp_ast_ratio,box_score
+AST%,usp_ast,box_score
+AST/100,usp_ast_100,box_score
+AST/40,usp_ast_40,box_score
+AST/G,usp_ast_g,box_score
+BLK%,usp_blk,box_score
+BLK/100,usp_blk_100,"box_score, pbp"
+BLK/40,usp_blk_40,"box_score, pbp"
+BLK/G,usp_blk_g,"box_score, pbp"
+BLK/PF,usp_blk_pf,box_score
+BLKD/100,usp_blkd_100,box_score
+BLKD/40,usp_blkd_40,box_score
+BLKD/G,usp_blkd_g,box_score
+DRB AGST,usp_drb_agst,box_score
+DRB DIFF,usp_drb_diff,box_score
+DRB%,usp_drb,box_score
+DRB/100,usp_drb_100,box_score
+DRB/40,usp_drb_40,box_score
+DRB/G,usp_drb_g,box_score
+DRtg,usp_drtg,box_score
+DRtg**Adj,usp_drtg_adj,kenpom
+FG%,usp_fg,"box_score, pbp"
+FGA AGST,usp_fga_agst,box_score
+FGA DIFF,usp_fga_diff,box_score
+FGA/100,usp_fga_100,"box_score, pbp"
+FGA/40,usp_fga_40,"box_score, pbp"
+FGA/G,usp_fga_g,"box_score, pbp"
+FGM AGST,usp_fgm_agst,box_score
+FGM DIFF,usp_fgm_diff,box_score
+FTA AGST,usp_fta_agst,box_score
+FTA DIFF,usp_fta_diff,box_score
+FTA Rate Agst,usp_fta_rate_agst,box_score
+FTA/100,usp_fta_100,box_score
+FTA/40,usp_fta_40,box_score
+FTA/G,usp_fta_g,box_score
+FTM AGST,usp_ftm_agst,box_score
+FTM DIFF,usp_ftm_diff,box_score
+FTM Rate,usp_ftm_rate,box_score
+GP,usp_gp,"box_score, pbp"
+Losses,usp_losses,"box_score, pbp"
+MP,usp_mp,box_score
+Net Rtg,usp_net_rtg,box_score
+ORB AGST,usp_orb_agst,box_score
+ORB DIFF,usp_orb_diff,box_score
+ORB%,usp_orb,box_score
+ORB/100,usp_orb_100,box_score
+ORB/40,usp_orb_40,box_score
+ORB/G,usp_orb_g,box_score
+ORBTV DIFF,usp_orbtv_diff,box_score
+ORtg,usp_ortg,box_score
+PF/100,usp_pf_100,"box_score, pbp"
+PF/40,usp_pf_40,"box_score, pbp"
+PF/G,usp_pf_g,"box_score, pbp"
+PFD,usp_pfd,"box_score, pbp"
+PFD/100,usp_pfd_100,box_score
+PFD/40,usp_pfd_40,box_score
+PFD/G,usp_pfd_g,box_score
+POSS,usp_poss,box_score
+PTS,usp_pts,"box_score, pbp"
+PTS AGST,usp_pts_agst,box_score
+PTS DIFF,usp_pts_diff,box_score
+PTS/100,usp_pts_100,box_score
+PTS/40,usp_pts_40,box_score
+PTS/G,usp_pts_g,box_score
+Pace,usp_pace,box_score
+RBTV DIFF,usp_rbtv_diff,box_score
+REB,usp_reb,box_score
+REB AGST,usp_reb_agst,box_score
+REB DIFF,usp_reb_diff,box_score
+REB/100,usp_reb_100,box_score
+REB/40,usp_reb_40,box_score
+REB/G,usp_reb_g,box_score
+STL%,usp_stl,"box_score, pbp"
+STL/100,usp_stl_100,"box_score, pbp"
+STL/40,usp_stl_40,"box_score, pbp"
+STL/G,usp_stl_g,"box_score, pbp"
+STL/PF,usp_stl_pf,box_score
+STL/TOV,usp_stl_tov,box_score
+TOV AGST,usp_tov_agst,box_score
+TOV DIFF,usp_tov_diff,box_score
+TOV%,usp_tov,box_score
+TOV/100,usp_tov_100,box_score
+TOV/40,usp_tov_40,box_score
+TOV/G,usp_tov_g,box_score
+TS%,usp_ts,"box_score, pbp"
+dPoss,usp_dposs,"box_score, pbp"
+eFG%,usp_efg,"box_score, pbp"
+eFG% Agst,usp_efg_agst,box_score
+oPoss,usp_oposs,"box_score, pbp"
+tf,usp_tf,box_score
+tfP100,usp_tfp100,box_score
+tfP40,usp_tfp40,box_score
+tfPg,usp_tfpg,box_score
+tmDrb,usp_tmdrb,box_score
+tmOrb,usp_tmorb,box_score
+tmReb,usp_tmreb,box_score
+tmTov,usp_tmtov,box_score
+tsa,usp_tsa,box_score

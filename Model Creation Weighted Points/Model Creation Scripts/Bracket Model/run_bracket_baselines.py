@@ -1,0 +1,78 @@
+from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+from common_utils import (  # noqa: E402
+    BRACKET_DATASET,
+    TEST_SEASONS,
+    TRAIN_SEASONS,
+    logistic_baseline_pipeline,
+    safe_auc,
+    safe_logloss,
+    season_split,
+    upset_accuracy_seedgap_ge_5,
+    update_run_row,
+    fmt_season_list,
+)
+
+RUN_ID_MAP = {
+    "core": "BRK_BASE_CORE",
+    "extended": "BRK_BASE_EXT",
+    "experimental": "BRK_BASE_EXP",
+}
+
+
+def feature_cols(df: pd.DataFrame) -> list[str]:
+    exclude = {
+        "Season",
+        "DayNum",
+        "TeamAID",
+        "TeamBID",
+        "target_teamA_win",
+    }
+    return [c for c in df.columns if c not in exclude]
+
+
+def run_one(feature_set: str, csv_path: Path) -> None:
+    df = pd.read_csv(csv_path)
+    tr, te = season_split(df)
+
+    X_cols = feature_cols(df)
+    X_tr, y_tr = tr[X_cols], tr["target_teamA_win"].astype(int).values
+    X_te, y_te = te[X_cols], te["target_teamA_win"].astype(int).values
+
+    model = logistic_baseline_pipeline()
+    model.fit(X_tr, y_tr)
+    p_te = model.predict_proba(X_te)[:, 1]
+
+    metrics = {
+        "model_family": "logistic",
+        "feature_set": feature_set,
+        "train_seasons": fmt_season_list(TRAIN_SEASONS),
+        "test_seasons": fmt_season_list(TEST_SEASONS),
+        "test_log_loss": safe_logloss(y_te, p_te),
+        "test_auc": safe_auc(y_te, p_te),
+        "upset_acc_seedgap_ge_5": upset_accuracy_seedgap_ge_5(te, p_te),
+        "champ_top1_rate": np.nan,
+        "champ_top4_rate": np.nan,
+        "selected_for_next_stage": np.nan,
+        "notes": f"rows_train={len(tr)}; rows_test={len(te)}; n_features={len(X_cols)}",
+    }
+
+    run_id = RUN_ID_MAP[feature_set]
+    update_run_row(run_id, metrics)
+    print(f"Updated {run_id} from {csv_path.name}")
+
+
+def main() -> None:
+    for feature_set, path in BRACKET_DATASET.items():
+        run_one(feature_set, path)
+
+
+if __name__ == "__main__":
+    main()

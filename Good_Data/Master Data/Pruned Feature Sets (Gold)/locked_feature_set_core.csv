@@ -1,0 +1,16 @@
+set_name,feature_name
+core,kp_adjem
+core,kp_adjoe
+core,kp_rankadjde
+core,kp_rankoe
+core,lms_residual_std
+core,rs_ast_to_ratio
+core,rs_drb
+core,rs_fgm
+core,rs_ft_pct
+core,rs_ft_rate
+core,rs_opp_blk
+core,rs_opp_ft_pct
+core,rs_pf
+core,rs_win_pct
+core,tourney_seed_num

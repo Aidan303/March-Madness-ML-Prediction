@@ -1,0 +1,53 @@
+{
+  "manifest_version": "1.1",
+  "created_date": "2026-03-13",
+  "selection_basis": "Stage 4 hardening primary metric: test_log_loss (post-feature-removal rebuild)",
+  "feature_policy": {
+    "banned_features": [
+      "massey_pom_rank",
+      "massey_consensus_rank"
+    ],
+    "direct_derivatives_removed": true
+  },
+  "selection_evidence": {
+    "step3_results_csv": "Model Creation/Results/Model Creation/step3_run_results.csv",
+    "stage4_results_csv": "Model Creation/Results/Model Refinement/stage4_hardening_results.csv"
+  },
+  "locked_split": {
+    "train_seasons": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021],
+    "test_seasons": [2022, 2023, 2024, 2025]
+  },
+  "models": {
+    "bracket": {
+      "run_id": "BRK_BASE_CORE",
+      "objective": "bracket",
+      "model_family": "logistic",
+      "feature_set": "core",
+      "calibration": "sigmoid",
+      "selected_variant_metric": {
+        "metric": "test_log_loss",
+        "value": 0.5715107755692835
+      },
+      "dataset_relpath": "Good_Data/Model Ready Data/Bracket Model/bracket_games_core_historical.csv",
+      "target_column": "target_teamA_win"
+    },
+    "champion": {
+      "run_id": "CHAMP_BASE_CORE",
+      "objective": "champion",
+      "model_family": "logistic",
+      "feature_set": "core",
+      "calibration": "raw",
+      "selected_variant_metric": {
+        "metric": "test_log_loss",
+        "value": 0.05242633778638459
+      },
+      "dataset_relpath": "Good_Data/Model Ready Data/Champion Model/champion_core_historical.csv",
+      "target_column": "is_champion"
+    }
+  },
+  "output_paths": {
+    "metrics_csv": "Model Creation/Results/Production/production_run_metrics.csv",
+    "bracket_predictions_csv": "Model Creation/Results/Production/production_predictions_bracket.csv",
+    "champion_predictions_csv": "Model Creation/Results/Production/production_predictions_champion.csv"
+  }
+}

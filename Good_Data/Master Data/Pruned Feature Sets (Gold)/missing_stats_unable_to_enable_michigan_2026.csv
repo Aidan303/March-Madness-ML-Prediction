@@ -1,0 +1,94 @@
+Abbrev,Stat Name,Data Source,Registry Status,Reason
+%FBP,Fast Break Points % of Total Points,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+%PITP,Points in the Paint % of Total Points,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+%POTOV,Points off Turnovers % of Total Points,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+%SCP,2nd Chance Points % of Total Points,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+AP Poll,AP Poll Rank,"box_score, pbp",unavailable,No implemented stat function and no derivation rule from currently loaded columns
+AP Poll Agst,AP Poll Rank Against,"box_score, pbp",unavailable,No implemented stat function and no derivation rule from currently loaded columns
+BENCH,Bench Points,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+BENCH/100,Bench Points / 100 Poss,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+BENCH/40,Bench Points / 40 Mins,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+BENCH/G,Bench Points / Game,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+biggestRunAgst,biggestRunAgst,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+DPF,Defensive Personal Fouls,"box_score, pbp",unavailable,No implemented stat function and no derivation rule from currently loaded columns
+DPF/100,Defensive Personal Fouls / 100 Poss,"box_score, pbp",unavailable,No implemented stat function and no derivation rule from currently loaded columns
+DPF/40,Defensive Personal Fouls / 40 Mins,"box_score, pbp",unavailable,No implemented stat function and no derivation rule from currently loaded columns
+DPF/G,Defensive Personal Fouls / Game,"box_score, pbp",unavailable,No implemented stat function and no derivation rule from currently loaded columns
+DRtg Adj,Adjustment to DRtg,kenpom,implemented,KenPom stat function exists but source value is missing for this team-season
+EFF,Player Efficiency,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+eFG% Adj,Adjustment to eFG%,kenpom,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+eFG%**Adj,Adjusted Effective Field Goal Percentage,kenpom,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+FBP,Fast Break Points,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+FBP AGST,Opponent Fast Break Points,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+FBP DIFF,Fast Break Points Differential,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+FBPTS PTS/100,Fast Break Points / 100 Poss,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+FBPTS PTS/40,Fast Break Points / 40 Mins,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+FBPTS PTS/G,Fast Break Points / Game,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+FTA Rate Adj,Adjustment to FTA Rate,kenpom,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+FTA Rate**Adj,Adjusted Free Throw Attempt Rate,kenpom,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+gameUpdated,gameUpdated,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+HKM%,Hakeem Percentage,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+isCT,isCT,"box_score, pbp",unavailable,No implemented stat function and no derivation rule from currently loaded columns
+Largest Deficit,Largest Deficit,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+Largest Lead,Largest Lead,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+Largest Score Margin,Largest Score Margin,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+Lead Changes,Lead Changes,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+Longest Scoring Run,Longest Scoring Run,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+Longest Scoring Run Score,Longest Scoring Run Score,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+LOSS10,Losses Leading by 10,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+LOSS15,Losses Leading by 15,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+LOSS20,Losses Leading by 20,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+LOSS5,Losses Leading by 5,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+NET Ranking,NCAA Net Ranking,"box_score, pbp",unavailable,No implemented stat function and no derivation rule from currently loaded columns
+Net Rtg Adj,Adjustment to Net Rating,kenpom,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+netRankAgst,netRankAgst,"box_score, pbp",unavailable,No implemented stat function and no derivation rule from currently loaded columns
+NO LEAD L,Losses Without Leading,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+NO TRAIL W,Wins Without Trailing,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+OPF,Offensive Personal Fouls,"box_score, pbp",unavailable,No implemented stat function and no derivation rule from currently loaded columns
+OPF/100,Offensive Personal Fouls / 100 Poss,"box_score, pbp",unavailable,No implemented stat function and no derivation rule from currently loaded columns
+OPF/40,Offensive Personal Fouls / 40 Mins,"box_score, pbp",unavailable,No implemented stat function and no derivation rule from currently loaded columns
+OPF/G,Offensive Personal Fouls / Game,"box_score, pbp",unavailable,No implemented stat function and no derivation rule from currently loaded columns
+ORB% Adj,Adjustment to ORB%,kenpom,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+ORB%**Adj,Adjusted Offensive Rebound Percentage,kenpom,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+ORtg Adj,Adjustment to ORtg,kenpom,implemented,KenPom stat function exists but source value is missing for this team-season
+Pace Adj,Adjustment to Pace,kenpom,implemented,KenPom stat function exists but source value is missing for this team-season
+PF Eff,Personal Foul Efficiency,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+PITP AGST,Opponent Points In The Paint,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+PITP DIFF,Points In The Paint Differential,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+PITP PTS,Points In The Paint,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+PITP PTS/100,Points In The Paint / 100 Poss,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+PITP PTS/40,Points In The Paint / 40 Mins,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+PITP PTS/G,Points In The Paint / Game,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+possPbp,possPbp,"box_score, pbp",unavailable,No implemented stat function and no derivation rule from currently loaded columns
+POTOV,Points Off Turnovers,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+POTOV AGST,Opponent Points Off Turnovers,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+POTOV DIFF,Points off Turnovers Differential,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+POTOV/100,Points off Turnovers / 100 Poss,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+POTOV/40,Points off Turnovers / 40 Mins,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+POTOV/G,Points Off Turnovers / Game,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+PTS H1,PTS H1,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+PTS H2,PTS H2,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+PTS OT,PTS OT,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+PTS Q1,PTS P1,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+PTS Q2,PTS P2,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+PTS Q3,PTS P3,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+PTS Q4,PTS P4,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+QUAD,Quadrant Against,"box_score, pbp",unavailable,No implemented stat function and no derivation rule from currently loaded columns
+SCP AGST,Opponent 2nd Chance Points,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+SCP DIFF,2nd Chance Points Differential,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+SCP PTS,2nd Chance Points,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+SCP PTS/100,2nd Chance Points / 100 Poss,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+SCP PTS/40,2nd Chance Points / 40 Mins,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+SCP PTS/G,2nd Chance Points / Game,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+sos,sos,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+Time Leading,Time Leading,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+Times Tied,Times Tied,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+TOV% Adj,Adjustment to TOV%,kenpom,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+TOV%**Adj,Adjusted Turnover Percentage,kenpom,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+winPctExp,winPctExp,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+WINS10,Wins Trailing by 10,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+WINS15,Wins Trailing by 15,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+WINS20,Wins Trailing by 20,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+WINS5,Wins Trailing by 5,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+WIRE L,Wire-to-Wire Losses,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns
+WIRE W,Wire-to-Wire Wins,box_score,unavailable,No implemented stat function and no derivation rule from currently loaded columns

@@ -1,0 +1,8 @@
+file,rows_in_file,rows_before,rows_after,matched_keys,new_keys
+INT _ KenPom _ Summary (Pre-Tournament).csv,8282,0,8282,0,8282
+INT _ KenPom _ Efficiency.csv,9268,8282,9268,8282,986
+INT _ KenPom _ Offense.csv,9268,9268,9268,9268,0
+INT _ KenPom _ Defense.csv,9268,9268,9268,9268,0
+INT _ KenPom _ Point Distribution.csv,9269,9268,9461,9076,193
+INT _ KenPom _ Miscellaneous Team Stats.csv,8314,9461,9461,8314,0
+INT _ KenPom _ Height.csv,6670,9461,9461,6670,0

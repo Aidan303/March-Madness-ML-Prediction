@@ -1,0 +1,4 @@
+season,baseline_total_points,weighted_total_points,delta_points,baseline_points_pct,weighted_points_pct,delta_points_pct,baseline_total_error,weighted_total_error,delta_error
+2023,50,54,4,0.2604166666666667,0.28125,0.020833333333333315,56,52,-4
+2024,90,137,47,0.46875,0.7135416666666666,0.24479166666666663,48,40,-8
+2025,135,104,-31,0.703125,0.5416666666666666,-0.16145833333333337,32,32,0

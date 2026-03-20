@@ -1,0 +1,77 @@
+{
+  "manifest_version": "2.0",
+  "created_date": "2026-03-15",
+  "selection_basis": "Weighted points objective (1,2,4,8,16,32) on locked 80/20 split",
+  "feature_policy": {
+    "banned_features": [
+      "massey_pom_rank",
+      "massey_consensus_rank"
+    ],
+    "direct_derivatives_removed": true
+  },
+  "selection_evidence": {
+    "weighted_selection_by_season_csv": "Model Creation Weighted Points/Results/Model Refinement/weighted_points_model_selection_by_season.csv",
+    "weighted_selection_overall_csv": "Model Creation Weighted Points/Results/Model Refinement/weighted_points_model_selection_overall.csv"
+  },
+  "locked_split": {
+    "train_seasons": [
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2021
+    ],
+    "test_seasons": [
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "models": {
+    "bracket": {
+      "run_id": "rf_sigmoid_weighted_points",
+      "objective": "bracket",
+      "model_family": "rf",
+      "feature_set": "core",
+      "calibration": "sigmoid",
+      "selected_variant_metric": {
+        "metric": "avg_weighted_points",
+        "value": 91.25
+      },
+      "dataset_relpath": "Good_Data/Model Ready Data/Bracket Model/bracket_games_core_historical.csv",
+      "target_column": "target_teamA_win"
+    },
+    "champion": {
+      "run_id": "CHAMP_BASE_CORE_weighted_points",
+      "objective": "champion",
+      "model_family": "logistic",
+      "feature_set": "core",
+      "calibration": "raw",
+      "selected_variant_metric": {
+        "metric": "inherited_from_baseline_manifest",
+        "value": 0.05242633778638459
+      },
+      "dataset_relpath": "Good_Data/Model Ready Data/Champion Model/champion_core_historical.csv",
+      "target_column": "is_champion"
+    }
+  },
+  "output_paths": {
+    "metrics_csv": "Model Creation Weighted Points/Results/Production/production_run_metrics_weighted_points.csv",
+    "bracket_predictions_csv": "Model Creation Weighted Points/Results/Production/production_predictions_bracket_weighted_points.csv",
+    "champion_predictions_csv": "Model Creation Weighted Points/Results/Production/production_predictions_champion_weighted_points.csv"
+  }
+}

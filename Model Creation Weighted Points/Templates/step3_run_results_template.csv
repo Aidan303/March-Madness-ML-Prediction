@@ -1,0 +1,11 @@
+run_id,objective,model_family,feature_set,train_seasons,test_seasons,test_log_loss,test_auc,upset_acc_seedgap_ge_5,champ_top1_rate,champ_top4_rate,selected_for_next_stage,notes
+BRK_BASE_CORE,bracket,logistic,core,"2003-2019|2021","2022|2023|2024|2025",,,,,,,
+BRK_BASE_EXT,bracket,logistic,extended,"2003-2019|2021","2022|2023|2024|2025",,,,,,,
+BRK_BASE_EXP,bracket,logistic,experimental,"2003-2019|2021","2022|2023|2024|2025",,,,,,,
+CHAMP_BASE_CORE,champion,logistic,core,"2003-2019|2021","2022|2023|2024|2025",,,,,,,
+CHAMP_BASE_EXT,champion,logistic,extended,"2003-2019|2021","2022|2023|2024|2025",,,,,,,
+CHAMP_BASE_EXP,champion,logistic,experimental,"2003-2019|2021","2022|2023|2024|2025",,,,,,,
+BRK_TREE_SET1,bracket,tree,TBD,"2003-2019|2021","2022|2023|2024|2025",,,,,,,
+BRK_TREE_SET2,bracket,tree,TBD,"2003-2019|2021","2022|2023|2024|2025",,,,,,,
+CHAMP_TREE_SET1,champion,tree,TBD,"2003-2019|2021","2022|2023|2024|2025",,,,,,,
+CHAMP_TREE_SET2,champion,tree,TBD,"2003-2019|2021","2022|2023|2024|2025",,,,,,,
