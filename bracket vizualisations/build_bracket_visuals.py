@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import argparse
 import csv
@@ -255,7 +255,7 @@ def create_bracket_figure(predictions: Dict[str, GamePrediction], title: str, ou
     # Layout: W top-left, X bottom-left, Z top-right, Y bottom-right.
     # Left semi (W vs X) sits between the two left regions; right semi (Z vs Y)
     # sits between the two right regions.  Both semis land at the same vertical
-    # midpoint so they are separated horizontally: left_semi → championship → right_semi.
+    # midpoint so they are separated horizontally: left_semi â†’ championship â†’ right_semi.
     fig, ax = plt.subplots(figsize=(24, 12), dpi=180)
 
     box_w = 3.4
@@ -264,7 +264,7 @@ def create_bracket_figure(predictions: Dict[str, GamePrediction], title: str, ou
     top_origin = 14.0
     bottom_origin = 0.0
 
-    # Left regions progress left→right; right regions progress right→left.
+    # Left regions progress leftâ†’right; right regions progress rightâ†’left.
     # right_cols is shifted further right so the three centre boxes
     # (left semi / champ / right semi) have room between them.
     left_cols = [3.0, 7.0, 11.0, 15.0]
@@ -377,7 +377,7 @@ def default_inputs(project_root: Path) -> List[Tuple[str, Path, Path]]:
     return [
         (
             "2026 Bracket - Updated Feature List",
-            project_root / "Updated_Feature_List_Modeling_v1" / "results" / "Production" / "2026_bracket_predictions.csv",
+            project_root / "Updated Feature List Model Creation" / "results" / "Production" / "2026_bracket_predictions.csv",
             output_dir / "2026_bracket_updated_feature_list.png",
         ),
         (
@@ -470,3 +470,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

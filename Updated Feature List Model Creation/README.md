@@ -1,4 +1,4 @@
-# Updated Feature List Modeling v1
+﻿# Updated Feature List Modeling v1
 
 ## Purpose
 This branch extends the original feature set with newly enabled non-duplicate stats and provides its own training and production pipeline.
@@ -25,15 +25,15 @@ This branch extends the original feature set with newly enabled non-duplicate st
 ## Typical Workflow
 1. Build updated branch tables:
 ```powershell
-python "Updated_Feature_List_Modeling_v1/scripts/build_updated_pipeline.py"
+python "Updated Feature List Model Creation/scripts/build_updated_pipeline.py"
 ```
 2. Train and evaluate updated models:
 ```powershell
-python "Updated_Feature_List_Modeling_v1/scripts/train_updated_models.py"
+python "Updated Feature List Model Creation/scripts/train_updated_models.py"
 ```
 3. Run locked 2026 production inference:
 ```powershell
-python "Updated_Feature_List_Modeling_v1/scripts/Production Model/run_2026_inference.py" --season 2026
+python "Updated Feature List Model Creation/scripts/Production Model/run_2026_inference.py" --season 2026
 ```
 
 ## Primary Outputs
@@ -52,3 +52,4 @@ python "Updated_Feature_List_Modeling_v1/scripts/Production Model/run_2026_infer
 - [results/updated_model_run_metrics.csv](results/updated_model_run_metrics.csv)
 - [results/updated_model_selected_for_production.csv](results/updated_model_selected_for_production.csv)
 - [config/updated_core_added_stat_mapping.csv](config/updated_core_added_stat_mapping.csv)
+

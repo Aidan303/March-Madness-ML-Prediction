@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from pathlib import Path
 
@@ -13,7 +13,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
 ROOT = Path(__file__).resolve().parents[2]
-OUT_ROOT = ROOT / "Updated_Feature_List_Modeling_v1"
+OUT_ROOT = ROOT / "Updated Feature List Model Creation"
 DATA_DIR = OUT_ROOT / "data"
 RESULTS_DIR = OUT_ROOT / "results"
 
@@ -324,3 +324,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

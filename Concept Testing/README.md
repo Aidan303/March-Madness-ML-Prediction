@@ -1,4 +1,4 @@
-# Concept Testing
+﻿# Concept Testing
 
 ## Purpose
 This folder contains exploratory scripts, comparison generators, and intermediate experimentation outputs.
@@ -22,8 +22,9 @@ This folder contains exploratory scripts, comparison generators, and intermediat
 - [Modeling_Findings_Writeup_Iteration2.md](Modeling_Findings_Writeup_Iteration2.md)
 
 ## Observer Note
-These scripts are useful for analysis and presentation, but they are not the canonical production entrypoints. Production runs should be executed from branch production scripts under [../Model Creation](../Model%20Creation), [../Model Creation Weighted Points](../Model%20Creation%20Weighted%20Points), and [../Updated_Feature_List_Modeling_v1](../Updated_Feature_List_Modeling_v1).
+These scripts are useful for analysis and presentation, but they are not the canonical production entrypoints. Production runs should be executed from branch production scripts under [../Model Creation](../Model%20Creation), [../Model Creation Weighted Points](../Model%20Creation%20Weighted%20Points), and [../Updated Feature List Model Creation](../Updated%20Feature%20List%20Model%20Creation).
 
 ## Practical Usage
 - Use these scripts to regenerate comparison presentation formatting after new 2026 production outputs are generated.
 - Keep production-inference execution in branch production folders to avoid run-path confusion.
+

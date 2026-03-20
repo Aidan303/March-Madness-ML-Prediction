@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import argparse
 import subprocess
@@ -6,7 +6,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
-SCRIPT_DIR = ROOT / "Updated_Feature_List_Modeling_v1" / "scripts" / "Production Model"
+SCRIPT_DIR = ROOT / "Updated Feature List Model Creation" / "scripts" / "Production Model"
 
 BRACKET_SCRIPT = SCRIPT_DIR / "run_2026_bracket_inference.py"
 CHAMPION_SCRIPT = SCRIPT_DIR / "run_2026_champion_inference.py"
@@ -41,3 +41,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

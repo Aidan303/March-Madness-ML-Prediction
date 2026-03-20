@@ -1,4 +1,4 @@
-# March Madness Prediction Modeling Project
+﻿# March Madness Prediction Modeling Project
 
 End-to-end modeling system for NCAA Men's March Madness bracket and champion prediction.
 
@@ -24,20 +24,20 @@ python "Good_Data/Model Ready Data/build_model_ready_tables.py"
 ```
 2. Build updated-feature branch model-ready tables:
 ```powershell
-python "Updated_Feature_List_Modeling_v1/scripts/build_updated_pipeline.py"
+python "Updated Feature List Model Creation/scripts/build_updated_pipeline.py"
 ```
 3. Run 2026 production inference for each branch:
 ```powershell
 python "Model Creation/Model Creation Scripts/Production Model/run_2026_inference.py"
 python "Model Creation Weighted Points/Model Creation Scripts/Production Model/run_2026_inference.py"
-python "Updated_Feature_List_Modeling_v1/scripts/Production Model/run_2026_inference.py" --season 2026
+python "Updated Feature List Model Creation/scripts/Production Model/run_2026_inference.py" --season 2026
 ```
 
 ## Repository Map
 - [Good_Data](Good_Data): source datasets, support files, stat package, and model-ready build scripts.
 - [Model Creation](Model%20Creation): original production modeling branch.
 - [Model Creation Weighted Points](Model%20Creation%20Weighted%20Points): weighted-points production modeling branch.
-- [Updated_Feature_List_Modeling_v1](Updated_Feature_List_Modeling_v1): branch with expanded feature set from newly enabled stats.
+- [Updated Feature List Model Creation](Updated%20Feature%20List%20Model%20Creation): branch with expanded feature set from newly enabled stats.
 - [Concept Testing](Concept%20Testing): experimentation scripts and report-generation helpers.
 - [bracket vizualisations](bracket%20vizualisations): scripted PNG bracket rendering for reader-facing visuals.
 - [docs](docs): high-level technical overview docs.
@@ -45,11 +45,11 @@ python "Updated_Feature_List_Modeling_v1/scripts/Production Model/run_2026_infer
 ## Model Branches
 - Original branch: [Model Creation](Model%20Creation) (outputs in [Model Creation/Results/Production](Model%20Creation/Results/Production)).
 - Weighted points branch: [Model Creation Weighted Points](Model%20Creation%20Weighted%20Points) (outputs in [Model Creation Weighted Points/Results/Production](Model%20Creation%20Weighted%20Points/Results/Production)).
-- Updated feature list branch: [Updated_Feature_List_Modeling_v1](Updated_Feature_List_Modeling_v1) (outputs in [Updated_Feature_List_Modeling_v1/results/Production](Updated_Feature_List_Modeling_v1/results/Production)).
+- Updated feature list branch: [Updated Feature List Model Creation](Updated%20Feature%20List%20Model%20Creation) (outputs in [Updated Feature List Model Creation/results/Production](Updated%20Feature%20List%20Model%20Creation/results/Production)).
 
 ## Core 2026 Artifacts
 - Cross-branch comparison report: [2026_Production_Model_Comparison.md](2026_Production_Model_Comparison.md)
-- Updated branch lock manifest: [Updated_Feature_List_Modeling_v1/config/final_model_lock_manifest_updated.json](Updated_Feature_List_Modeling_v1/config/final_model_lock_manifest_updated.json)
+- Updated branch lock manifest: [Updated Feature List Model Creation/config/final_model_lock_manifest_updated.json](Updated%20Feature%20List%20Model%20Creation/config/final_model_lock_manifest_updated.json)
 - Original branch lock manifest: [Model Creation/Config/final_model_lock_manifest.json](Model%20Creation/Config/final_model_lock_manifest.json)
 - Weighted branch lock manifest: [Model Creation Weighted Points/Config/final_model_lock_manifest_weighted_points.json](Model%20Creation%20Weighted%20Points/Config/final_model_lock_manifest_weighted_points.json)
 
@@ -59,7 +59,7 @@ python "Updated_Feature_List_Modeling_v1/scripts/Production Model/run_2026_infer
 - Data area guide: [Good_Data/README.md](Good_Data/README.md)
 - Original branch guide: [Model Creation/README.md](Model%20Creation/README.md)
 - Weighted branch guide: [Model Creation Weighted Points/README.md](Model%20Creation%20Weighted%20Points/README.md)
-- Updated-feature branch guide: [Updated_Feature_List_Modeling_v1/README.md](Updated_Feature_List_Modeling_v1/README.md)
+- Updated-feature branch guide: [Updated Feature List Model Creation/README.md](Updated%20Feature%20List%20Model%20Creation/README.md)
 - Experiment area guide: [Concept Testing/README.md](Concept%20Testing/README.md)
 - Bracket visualization guide: [bracket vizualisations/README.md](bracket%20vizualisations/README.md)
 
@@ -67,3 +67,4 @@ python "Updated_Feature_List_Modeling_v1/scripts/Production Model/run_2026_infer
 - Training/evaluation logic is branch-specific, but all branches consume the same base tournament structures and team identifiers.
 - Later-round slots can contain different participants per branch because earlier predictions change bracket paths.
 - The comparison report explicitly calls out these divergences for rounds 4-6.
+

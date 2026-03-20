@@ -1,11 +1,11 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import subprocess
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-SCRIPT_DIR = ROOT / "Updated_Feature_List_Modeling_v1" / "scripts"
+SCRIPT_DIR = ROOT / "Updated Feature List Model Creation" / "scripts"
 
 BUILD_SCRIPT = SCRIPT_DIR / "build_updated_pipeline.py"
 TRAIN_SCRIPT = SCRIPT_DIR / "train_updated_models.py"
@@ -26,3 +26,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

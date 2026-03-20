@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import argparse
 import json
@@ -14,9 +14,9 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
 ROOT = Path(__file__).resolve().parents[3]
-MANIFEST_PATH = ROOT / "Updated_Feature_List_Modeling_v1" / "config" / "final_model_lock_manifest_updated.json"
-DATA_DIR = ROOT / "Updated_Feature_List_Modeling_v1" / "data"
-OUT_DIR = ROOT / "Updated_Feature_List_Modeling_v1" / "results" / "Production"
+MANIFEST_PATH = ROOT / "Updated Feature List Model Creation" / "config" / "final_model_lock_manifest_updated.json"
+DATA_DIR = ROOT / "Updated Feature List Model Creation" / "data"
+OUT_DIR = ROOT / "Updated Feature List Model Creation" / "results" / "Production"
 
 LIVE_SEASON = 2026
 
@@ -83,7 +83,7 @@ def run_champion_inference(target_season: int) -> pd.DataFrame:
     if not team_features_path.exists():
         raise FileNotFoundError(
             f"Missing updated team feature table for season {target_season}: {team_features_path}. "
-            "Run Updated_Feature_List_Modeling_v1/scripts/build_updated_pipeline.py first."
+            "Run Updated Feature List Model Creation/scripts/build_updated_pipeline.py first."
         )
 
     curr = pd.read_csv(team_features_path)
@@ -127,3 +127,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
